@@ -24,7 +24,7 @@ if (!doNotTrack) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no"/>
 
-    <title>404 Page not found | omar shabab</title>
+    <title>Migrate DNS From Squarespace to AWS Route53 | omar shabab</title>
     
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -173,9 +173,54 @@ if (!doNotTrack) {
 
         <div id="content" class="content-container">
         
-    <h1 class="not-found-title">404: Not found</h1>
-    <h2>Sorry, we couldn't find the page you're looking for.</h2>
-    <a href="/">Go back home</a>
+
+<h1 class="post-title">Migrate DNS From Squarespace to AWS Route53</h1>
+    
+    <time>May 9, 2020</time>
+    
+    <div>
+        <p>
+        <p>If you have a domain with Squarespace and would like to transfer it to Route53, the following steps will show you how.</p>
+<p>It took me quite sometime to do it, and I hope this write up saves your time.</p>
+<p>Steps to follow :</p>
+<ul>
+<li>Create a Route53 hosted zone</li>
+<li>Take note of the created NS and SOA (don&rsquo;t edit) in Route53</li>
+<li>Copy the four namservers from Route 53 and paste them in the Squarespace advanced DNS</li>
+<li>&lsquo;Create Record Set&rsquo; in Route53. Alias -&gt; no. Copy and paste the Ipv4 addresses from Squarespace (Website defaults)</li>
+<li>Decrease TTL of NS record in the hosted zone 1m - 15m in AWS Route53</li>
+<li>Copy and paste the MX Records from Squarespace to new record set with &lsquo;MX&rsquo; type for email configuration</li>
+<li>Wait 2 days for TTL to expire. After 2 days, increase the TTL ()</li>
+<li>Monitor traffic, if unusual revert back to squarespace NS</li>
+</ul>
+<p>References :</p>
+<ul>
+<li><a href="https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/migrate-dns-domain-in-use.html">AWS : Migrate DNS Domain In Use</a></li>
+<li><a href="https://support.squarespace.com/hc/en-us/articles/205812348-Advanced-DNS-settings">Squarespace : Advanced DNS Settings</a></li>
+</ul>
+<p><a href="https://twitter.com/omar161000">@omar16100</a></p>
+
+        </p>
+    </div>
+    
+
+    
+
+    <div class="page-footer">
+        
+        <hr class="footer-divider">
+        
+            <a class="tag" href="/tags/route53">#route53</a>
+        
+            <a class="tag" href="/tags/squarespace">#squarespace</a>
+        
+            <a class="tag" href="/tags/dns">#dns</a>
+        
+            <a class="tag" href="/tags/aws">#aws</a>
+        
+      
+    </div>
+
 
         
 

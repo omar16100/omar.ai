@@ -1,13 +1,13 @@
-baseURL = "https://omar.ai/"
+d19425635ludr6.cloudfront.netbaseURL = "http://cf-templates-27fgpjirwtq0-us-east-1.s3-website-us-east-1.amazonaws.com/"
 languageCode = "en-us"
 title = "omar shabab"
 theme = "noteworthy"
 enableRobotsTXT = true
-paginate = 10 # Set the number of posts to show before overflowing to the next page.
+paginate = 4 # Set the number of posts to show before overflowing to the next page.
 summaryLength = 10 # Configure how long the post summary should be on the homepage.
 
 # Add your Google Analytics identifier: UA-XXXXXXXX-X
-googleAnalytics = "UA-166869528-1" 
+# googleAnalytics = "" 
 
 # Add your Disqus shortname here.
 # disqusShortname = ""    
@@ -27,7 +27,7 @@ googleAnalytics = "UA-166869528-1"
 	# Blog description at the top of the homepage. Supports markdown.
 	description = ""
 
-    showReadMore = true
+    showReadMore = false
 
     # Set enableKofi to true to enable the Ko-fi support button. Add your Ko-fi ID to link to your account.
     # enableKofi = false
@@ -86,17 +86,17 @@ googleAnalytics = "UA-166869528-1"
 	url = "/tags/"
 	weight = 2
 
-#[[menu.main]]
-#	name = "Archives"
-#	identifier = "archives"
-#	url = "/archives/"
-#	weight = 3
+[[menu.main]]
+	name = "Archives"
+	identifier = "archives"
+	url = "/archives/"
+	weight = 3
 
 [[menu.main]]
 	name = "Projects"
 	identifier = "projects"
 	url = "/projects/"
-	weight = 3
+	weight = 4
 
 
 
@@ -124,31 +124,31 @@ googleAnalytics = "UA-166869528-1"
     privacyEnhanced = true
 
 
-[[deployment.targets]]
-
-name = "mydeployment"
-
-# S3; see https://gocloud.dev/howto/blob/#s3
-# For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
-URL = "s3://omar.ai?region=ap-southeast-1"
-
-# If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
-cloudFrontDistributionID = "E2JQ4U93EQ3PDI"
-
-# [[deployment.matchers]] configure behavior for files that match the Pattern.
-# Samples:
-
-[[deployment.matchers]]
-#  Cache static assets for 1 year.
-pattern = "^.+\\.(js|css|svg|ttf)$"
-cacheControl = "max-age=31536000, no-transform, public"
-gzip = true
-
-[[deployment.matchers]]
-pattern = "^.+\\.(png|jpg)$"
-cacheControl = "max-age=31536000, no-transform, public"
-gzip = false
-
-[[deployment.matchers]]
-pattern = "^.+\\.(html|xml|json)$"
-gzip = true
+#	[[deployment.targets]]
+#	
+#	name = "mydeployment"
+#	
+#	# S3; see https://gocloud.dev/howto/blob/#s3
+#	# For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
+#	URL = "s3://omar.ai?region=ap-southeast-1"
+#	
+#	# If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
+#	cloudFrontDistributionID = "E2JQ4U93EQ3PDI"
+#	
+#	# [[deployment.matchers]] configure behavior for files that match the Pattern.
+#	# Samples:
+#	
+#	[[deployment.matchers]]
+#	#  Cache static assets for 1 year.
+#	pattern = "^.+\\.(js|css|svg|ttf)$"
+#	cacheControl = "max-age=31536000, no-transform, public"
+#	gzip = true
+#	
+#	[[deployment.matchers]]
+#	pattern = "^.+\\.(png|jpg)$"
+#	cacheControl = "max-age=31536000, no-transform, public"
+#	gzip = false
+#	
+#	[[deployment.matchers]]
+#	pattern = "^.+\\.(html|xml|json)$"
+#	gzip = true

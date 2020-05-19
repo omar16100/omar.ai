@@ -1,23 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Noteworthy</title>
-    <link>https://example.com/</link>
-    <description>Recent content on Noteworthy</description>
+    <title>omar shabab</title>
+    <link>https://omar.ai/</link>
+    <description>Recent content on omar shabab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 May 2020 18:41:39 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2020 16:52:40 +0800</lastBuildDate>
     
-	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://omar.ai/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>About</title>
+      <link>https://omar.ai/about/</link>
+      <pubDate>Sun, 17 May 2020 16:52:40 +0800</pubDate>
+      
+      <guid>https://omar.ai/about/</guid>
+      <description>work in progress</description>
+    </item>
+    
+    <item>
+      <title>Migrate DNS From Squarespace to AWS Route53</title>
+      <link>https://omar.ai/posts/migrate_dns_from_squarespace_to_aws_route53/</link>
+      <pubDate>Sat, 09 May 2020 16:13:47 +0800</pubDate>
+      
+      <guid>https://omar.ai/posts/migrate_dns_from_squarespace_to_aws_route53/</guid>
+      <description>If you have a domain with Squarespace and would like to transfer it to Route53, the following steps will show you how.</description>
+    </item>
+    
+    <item>
       <title>Hello_world</title>
-      <link>https://example.com/posts/hello_world/</link>
+      <link>https://omar.ai/posts/hello_world/</link>
       <pubDate>Thu, 07 May 2020 18:41:39 +0800</pubDate>
       
-      <guid>https://example.com/posts/hello_world/</guid>
+      <guid>https://omar.ai/posts/hello_world/</guid>
       <description>hello world!</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://omar.ai/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://omar.ai/projects/</guid>
+      <description>helpbd.net : developed flutter application for helping volunteers reach victims more efficiently during Covid-19 crisis.</description>
     </item>
     
   </channel>
