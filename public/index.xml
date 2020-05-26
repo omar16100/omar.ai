@@ -12,12 +12,22 @@
     
     
     <item>
+      <title>Trigger Bitbucket Pipeline Only If Certain Files Are Changed (With Google Cloud Functions)</title>
+      <link>https://omar.ai/posts/bitbucket_pipelines_custom_trigger/</link>
+      <pubDate>Tue, 19 May 2020 22:38:14 +0800</pubDate>
+      
+      <guid>https://omar.ai/posts/bitbucket_pipelines_custom_trigger/</guid>
+      <description>Overview of what you will do.
+Having DevOps practices can make you really productive as a developer.</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://omar.ai/about/</link>
       <pubDate>Sun, 17 May 2020 16:52:40 +0800</pubDate>
       
       <guid>https://omar.ai/about/</guid>
-      <description>work in progress</description>
+      <description>Machine Learning &amp;amp; DevOps Engineer. Freelance.</description>
     </item>
     
     <item>
