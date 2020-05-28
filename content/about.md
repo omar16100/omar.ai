@@ -4,4 +4,4 @@ date: 2020-05-17T16:52:40+08:00
 draft: false
 ---
 
-Machine Learning & DevOps Engineer. Freelance.
+Machine Learning & DevOps Consultant
