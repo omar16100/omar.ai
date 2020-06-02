@@ -25,7 +25,7 @@ disqusShortname = "https-omar-ai"
 [params]
 	math = true
 	# Blog description at the top of the homepage. Supports markdown.
-	description = "'writing for my own reference'"
+	description = ""
 
     showReadMore = true
 
@@ -154,3 +154,10 @@ gzip = false
 [[deployment.matchers]]
 pattern = "^.+\\.(html|xml|json)$"
 gzip = true
+
+# add sitemap
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5

@@ -5,60 +5,84 @@
   <url>
     <loc>https://omar.ai/posts/</loc>
     <lastmod>2020-05-19T22:38:14+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://omar.ai/posts/bitbucket_pipelines_custom_trigger/</loc>
     <lastmod>2020-05-19T22:38:14+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://omar.ai/about/</loc>
     <lastmod>2020-05-17T16:52:40+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://omar.ai/</loc>
     <lastmod>2020-05-17T16:52:40+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://omar.ai/tags/aws/</loc>
     <lastmod>2020-05-09T16:13:47+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://omar.ai/tags/dns/</loc>
     <lastmod>2020-05-09T16:13:47+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://omar.ai/posts/migrate_dns_from_squarespace_to_aws_route53/</loc>
     <lastmod>2020-05-09T16:13:47+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://omar.ai/tags/route53/</loc>
     <lastmod>2020-05-09T16:13:47+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://omar.ai/tags/squarespace/</loc>
     <lastmod>2020-05-09T16:13:47+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://omar.ai/tags/</loc>
     <lastmod>2020-05-09T16:13:47+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://omar.ai/posts/hello_world/</loc>
     <lastmod>2020-05-07T18:41:39+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://omar.ai/projects/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>
