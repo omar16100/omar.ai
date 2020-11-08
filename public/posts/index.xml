@@ -6,10 +6,21 @@
     <description>Recent content in Posts on omar shabab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 May 2020 22:38:14 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2020 15:13:32 +0800</lastBuildDate>
     
 	<atom:link href="https://omar.ai/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Install fstransform On CentOS</title>
+      <link>https://omar.ai/posts/install_fstransform_on_centos/</link>
+      <pubDate>Sun, 08 Nov 2020 15:13:32 +0800</pubDate>
+      
+      <guid>https://omar.ai/posts/install_fstransform_on_centos/</guid>
+      <description>Install fstransform On CentOS
+Download latest epel-release rpm from
+http://download-ib01.fedoraproject.org/pub/epel/7/x86_64/</description>
+    </item>
     
     <item>
       <title>Trigger Bitbucket Pipeline Only If Certain Files Are Changed (With Google Cloud Functions)</title>
