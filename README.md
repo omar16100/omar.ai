@@ -17,3 +17,4 @@ Create a new post
 - newsletter
 - update projects
 - update tags
+- logo
